@@ -41,7 +41,9 @@ class MusicLibraryController
   end 
   
   def list_songs_by_artist
-    # Artist.all.
+    Artist.all.each do |song|
+      song.artist.name
+    end 
   end 
   
 end 
