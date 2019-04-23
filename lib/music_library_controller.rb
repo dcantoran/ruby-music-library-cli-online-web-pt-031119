@@ -23,7 +23,9 @@ class MusicLibraryController
   end 
   
   def list_songs 
-    
+    Song.all.each_with_index(1) do |song, idx|
+      puts "#{} - #{} - #{}"
+    end 
   end 
   
 end 
