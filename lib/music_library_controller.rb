@@ -41,7 +41,7 @@ class MusicLibraryController
   end 
   
   def list_songs_by_artist
-    Artist
+    # Artist.all.
   end 
   
 end 
